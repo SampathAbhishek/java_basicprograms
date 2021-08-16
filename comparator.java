@@ -55,3 +55,4 @@ class compareByNameThenMarks implements  Comparator<Student>
 		return (o2.getMarks()-o1.getMarks());
 	    }
 	}
+}
