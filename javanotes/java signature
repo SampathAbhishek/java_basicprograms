@@ -22,3 +22,14 @@ It is essential to keep the function static,otherwise we should create an object
 void:-
 It doesn't return anything
 String args[] -> syntax.
+
+System.out.println()
+
+System is defined inside java.lang package.
+out is an object defined under System
+like this
+public static final PrintStream out;
+inside PrintStream class println() method is defined publicly.
+so to access it we need to use out.pritnln()
+but out is defined inside System as a static field member.So in order to access this class variable we definitely need to use System.out
+so hence combining two we have System.out.println()
